@@ -28,7 +28,7 @@ const DeleteUser = () => {
           Do you really want to delete{" "}
           <span style={{ color: "red" }}>{book.title}</span>data?
         </h3>
-        <input type="Yes" className="btn btn-outline-danger"></input>
+        <input type="button" value="YES" className="btn btn-outline-danger"></input>
         <NavLink to={"/user/showuser"}>
           <button type="button" className="btn btn-outline-warning">
             NO
